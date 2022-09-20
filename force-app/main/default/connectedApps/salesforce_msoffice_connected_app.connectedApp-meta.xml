@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>arup.sarkar@salesforce.com</contactEmail>
+    <contactPhone>6462697876</contactPhone>
+    <label>salesforce_msoffice_connected_app</label>
+    <logoUrl>https://speed-saas-9442-dev-ed.file.force.com/servlet/servlet.ImageServer?id=0153F000001yGnB&amp;oid=00D3F000000riyW</logoUrl>
+    <oauthConfig>
+        <callbackUrl>http://localhost/_callback</callbackUrl>
+        <consumerKey>3MVG9JamK_x9K2XIaxgLvmwu02fWz5zmPrN5wCk2V_4TYOYlKL_3SseJO5RCNTek.O_n9bKufuwdEz3u8N7qc</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
