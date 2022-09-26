@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://login.microsoftonline.com/afbe2a25-78bd-4193-8279-95142c1f0169/oauth2/authorize</authorizeUrl>
+    <consumerKey>c509afcb-4a62-4495-b9cd-f5d087acf265</consumerKey>
+    <consumerSecret>DXnjERpuXjeR06peh7E0jFEpRtKCTqMkuBQf8tOo1+64Kk/vkud7b3BBGPdiC2rX</consumerSecret>
+    <friendlyName>MSOffice Add-in SSO</friendlyName>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>MicrosoftACS</providerType>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+    <tokenUrl>https://login.microsoftonline.com/afbe2a25-78bd-4193-8279-95142c1f0169/oauth2/token</tokenUrl>
+</AuthProvider>
